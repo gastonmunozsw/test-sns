@@ -13,8 +13,8 @@ export class AppComponent {
 
   public connectToSNS(): void {
     let credentials: CredentialsOptions = {
-      accessKeyId: "AKIAXJFSLZOGB3DGNQF5",
-      secretAccessKey: "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"
+      accessKeyId: "",
+      secretAccessKey: ""
     };
     AWS.config.update({ region: 'us-east-1', credentials: credentials });
     let params: SubscribeInput = {
